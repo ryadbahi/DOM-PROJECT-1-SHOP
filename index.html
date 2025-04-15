@@ -19,7 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Workshop DOM</title>
   </head>
   <body>
@@ -94,7 +94,7 @@
         <div class="list-products">
           <!-- Product 1 : baskets -->
           <div class="card-body">
-            <div class="card" style="width: 18rem">
+            <div class="card item" style="width: 18rem" data-price="100">
               <img
                 src="/assets/baskets.png"
                 class="card-img-top"
@@ -105,54 +105,53 @@
                 <p class="card-text">This is a basket</p>
                 <h4 class="unit-price">100 $</h4>
                 <div>
-                  <i class="fas fa-plus-circle"></i>
+                  <i class="fas fa-plus-circle increase-btn"></i>
                   <span class="quantity">0</span>
-                  <i class="fas fa-minus-circle"></i>
+                  <i class="fas fa-minus-circle decrease-btn"></i>
                 </div>
                 <div>
-                  <i class="fas fa-trash-alt"></i>
-                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-trash-alt delete-btn"></i>
+                  <i class="fas fa-heart like-btn"></i>
                 </div>
               </div>
             </div>
           </div>
           <!-- Product 2 : socks -->
-
           <div class="card-body">
-            <div class="card" style="width: 18rem">
+            <div class="card item" style="width: 18rem" data-price="20">
               <img src="/assets/socks.png" class="card-img-top" alt="socks" />
               <div class="card-body">
                 <h5 class="card-title">Socks</h5>
                 <p class="card-text">This is a socks</p>
                 <h4 class="unit-price">20 $</h4>
                 <div>
-                  <i class="fas fa-plus-circle"></i>
+                  <i class="fas fa-plus-circle increase-btn"></i>
                   <span class="quantity">0</span>
-                  <i class="fas fa-minus-circle"></i>
+                  <i class="fas fa-minus-circle decrease-btn"></i>
                 </div>
                 <div>
-                  <i class="fas fa-trash-alt"></i>
-                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-trash-alt delete-btn"></i>
+                  <i class="fas fa-heart like-btn"></i>
                 </div>
               </div>
             </div>
           </div>
           <!-- Product 3 : bag -->
           <div class="card-body">
-            <div class="card" style="width: 18rem">
+            <div class="card item" style="width: 18rem" data-price="50">
               <img src="/assets/bag.png" class="card-img-top" alt="bag" />
               <div class="card-body">
                 <h5 class="card-title">Bag</h5>
                 <p class="card-text">This is a Bag</p>
                 <h4 class="unit-price">50 $</h4>
                 <div>
-                  <i class="fas fa-plus-circle"></i>
+                  <i class="fas fa-plus-circle increase-btn"></i>
                   <span class="quantity">0</span>
-                  <i class="fas fa-minus-circle"></i>
+                  <i class="fas fa-minus-circle decrease-btn"></i>
                 </div>
                 <div>
-                  <i class="fas fa-trash-alt"></i>
-                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-trash-alt delete-btn"></i>
+                  <i class="fas fa-heart like-btn"></i>
                 </div>
               </div>
             </div>
@@ -170,6 +169,6 @@
     ></script>
 
     <!-- My JS -->
-    <script src="/js/script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>

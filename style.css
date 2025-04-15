@@ -66,3 +66,18 @@ main {
 .fa-trash-alt {
   color: #de6b5c;
 }
+.shopping-card-container {
+  margin: 20px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.like-btn.liked {
+  color: red;
+}
